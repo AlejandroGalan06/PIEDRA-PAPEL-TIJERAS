@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+
+
+
+body{
+    background-color: lightblue;
+    margin-top: 200px;
+}
+button{
+    border: 2px solid #0D7381;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: grey;
+}
+button:active{
+    background-color: cyan;
+}
+a{
+    text-decoration: none;
+}
+#todo{
+    display: flex;
+    justify-content: center;
+}
+#Jugador1{
+    margin: 10px;
+}
+#Jugador2{
+    margin: 10px;
+}
+
+
+#GANADOR{
+    margin: 10px;
+}
